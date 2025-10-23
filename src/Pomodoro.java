@@ -4,7 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * Pomodoro simple usando Swing.
+ * Pomodoro simple usando Swing. VERSION PARA PRUEBA
  * - Duración por defecto: 60 min trabajo / 30 min descanso
  * - Botones: Iniciar/Pausar, Reiniciar, Configurar tiempos
  *
