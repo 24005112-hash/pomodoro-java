@@ -5,7 +5,7 @@ import java.awt.event.ActionListener;
 
 /**
  * Pomodoro simple usando Swing.
- * - Duración por defecto: 25 min trabajo / 5 min descanso
+ * - Duración por defecto: 30 min trabajo / 5 min descanso
  * - Botones: Iniciar/Pausar, Reiniciar, Configurar tiempos
  *
  * Compilar:
@@ -14,7 +14,7 @@ import java.awt.event.ActionListener;
  * java Pomodoro
  */
 public class Pomodoro extends JFrame {
-    private static final int DEFAULT_WORK_MIN = 25;
+    private static final int DEFAULT_WORK_MIN = 30;
     private static final int DEFAULT_BREAK_MIN = 5;
 
     private int workSeconds = DEFAULT_WORK_MIN * 60;
